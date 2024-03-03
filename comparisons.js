@@ -15,13 +15,13 @@ var numberDogs = 0
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
-
+console.log("is numberTeachers strictly equal to stringTeachers?",numberTeachers === stringTeachers);
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-
+console.log("is numberTeachers not equal to numberStudents?",numberTeachers != numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("is numberStudents greater than or equal to 21?",numberStudents >=21);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 
