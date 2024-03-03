@@ -18,7 +18,7 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 console.log("is numberTeachers strictly equal to stringTeachers?",numberTeachers === stringTeachers);
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-console.log("is numberTeachers not equal to numberStudents?",numberTeachers != numberStudents);
+console.log("is numberTeachers not equal to numberStudents?",numberTeachers !== numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
 console.log("is numberStudents greater than or equal to 21?",numberStudents >=21);
@@ -32,14 +32,14 @@ console.log("is numberStudents greater than or equal to 21?",numberStudents >=21
 
 // For the following prompts, you will be given a line of code and your task is to type out a comment,in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 
-var friends = 6;
-var siblings = 2;
-console.log(friends > siblings);
+var friends = 6; // This line of code defines the variable friends and assigns a value of 6
+var siblings = 2; //Defines the variable siblings and assigns a value of 2
+console.log(friends > siblings); //logs the result of the comparison: is friends greater than siblings?
 // YOU DO: Explain.
 
-var attendees = 9;
-var meals = 8;
-console.log(attendees !== meals);
+var attendees = 9; //Defines the variable attendees and assigns a value of 9
+var meals = 8; //Defines the variable meals and assigns a value of 8
+console.log(attendees !== meals); //logs the result of the comparison: is attendees not equal to meals?
 // YOU DO: Explain.
 
 
